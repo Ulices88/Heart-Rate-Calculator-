@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="edu.cis135mpcc.maxheartratecalculator.ActivityInput"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Header"
+            android:textSize="@dimen/largeText"
+            android:layout_marginBottom="@dimen/layout_space">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/age_input"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="number" />
+
+
+        <Button
+
+            android:layout_marginTop="@dimen/layout_space"
+            android:text="@string/Calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calculate"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentHeartRate</string>
+
+
+    <string name="Header"> Please Enter Your Age</string>
+    <string name="Calculate">Get Max!</string>
+    <string name="Max_String">Your Max Heart Rate Is </string>
+</resources>
